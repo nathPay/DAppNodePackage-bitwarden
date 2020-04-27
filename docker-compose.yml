@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  dappnode-package-bitwarden.public.dappnode.eth:
+    image: 'dappnode-package-bitwarden.public.dappnode.eth:0.1.0'
+    build: ./build
+    volumes: [
+      "/data/bitwarden:/data:rw"
+    ]
+    ports: [
+      "8343:80",
+      "3012:3012"
+    ]
+    environment:
+      - SIGNUPS_ALLOWED="true"
+      - DOMAIN="https://bitwarden.titou.duckdns.org"
