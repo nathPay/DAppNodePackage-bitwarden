@@ -5,5 +5,26 @@
     "uploadedTo": {
       "dappnode": "Wed, 06 Nov 2019 16:46:37 GMT"
     }
+  },
+  "0.1.1": {
+    "hash": "/ipfs/QmPxQ1E2MnV5uyN2MnCKXkWbVJCPm14ymJMQoSCPove4MY",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Mon, 27 Apr 2020 21:28:36 GMT"
+    }
+  },
+  "1.0.0": {
+    "hash": "/ipfs/QmaYomT6GccuLJdjaTEqibc68U4QZbQ4gtuXzJhEu2bmsD",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Tue, 28 Apr 2020 09:52:55 GMT"
+    }
+  },
+  "1.0.1": {
+    "hash": "/ipfs/QmUVaYi6gSqWhi45k8YVoNDSiAQt3yXAZKRrUiwPRu8F61",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Tue, 28 Apr 2020 10:04:51 GMT"
+    }
   }
 }

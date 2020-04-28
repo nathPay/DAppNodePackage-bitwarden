@@ -1,30 +1,14 @@
 {
-  "name": "dappnode-package-bitwarden.public.dappnode.eth",
-  "version": "0.1.0",
-  "upstreamVersion": "v1.9.1-alpine",
-  "description": "A way to store password easily",
+  "name": "bitwarden.public.dappnode.eth",
+  "version": "1.0.1",
+  "upstreamVersion": "1.14.2-alpine",
+  "description": "An easy way to store password",
   "avatar": "/ipfs/QmQJUhhywfKNX6tpyitoCLJtM1bK5EQ4fy1g2TVTbn73Yk",
   "type": "service",
-  "image": {
-    "path": "dappnode-package-bitwarden.public.dappnode.eth_0.1.0.tar.xz",
-    "hash": "/ipfs/QmVX67z6GRVAeVUz5M82f3ZSnv6h5odpV5md3P5mBuWzo6",
-    "size": 11968860,
-    "volumes": [
-      "/data/bitwarden:/data:rw"
-    ],
-    "ports": [
-      "8343:80",
-      "3012:3012"
-    ],
-    "environment": [
-      "SIGNUPS_ALLOWED=true",
-      "DOMAIN=https://yourDomain.com"
-    ],
-    "restart": "always"
-  },
   "keywords": [
     "BITWARDEN",
-    "PASSWORD"
+    "PASSWORD",
+    "SELF_HOSTING"
   ],
   "dependencies": {},
   "author": "Nathan Payre",
@@ -32,8 +16,11 @@
     "security"
   ],
   "links": {
-    "repo": "https://github.com/mprasil/bitwarden_rs",
-    "dockerhub": "https://hub.docker.com/r/mprasil/bitwarden"
+    "HomePage": "http://bitwarden.public.dappnode",
+    "repo": "https://github.com/dani-garcia/bitwarden_rs",
+    "dockerhub": "https://hub.docker.com/r/bitwardenrs/server",
+    "package": "https://github.com/nathPay/DAppNodePackage-bitwarden",
+    "domaineName": "https://github.com/nathPay/ansible-letsencrypt"
   },
   "license": "GLP-3.0"
 }

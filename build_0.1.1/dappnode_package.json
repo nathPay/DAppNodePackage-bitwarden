@@ -1,0 +1,25 @@
+{
+  "name": "dappnode-package-bitwarden.public.dappnode.eth",
+  "version": "0.1.1",
+  "upstreamVersion": "alpine (latest)",
+  "description": "An easy way to store password",
+  "avatar": "/ipfs/QmQJUhhywfKNX6tpyitoCLJtM1bK5EQ4fy1g2TVTbn73Yk",
+  "type": "service",
+  "keywords": [
+    "BITWARDEN",
+    "PASSWORD",
+    "SELF_HOSTING"
+  ],
+  "dependencies": {},
+  "author": "Nathan Payre",
+  "categories": [
+    "security"
+  ],
+  "links": {
+    "repo": "https://github.com/mprasil/bitwarden_rs",
+    "dockerhub": "https://hub.docker.com/r/mprasil/bitwarden",
+    "package": "https://github.com/nathPay/DAppNodePackage-bitwarden",
+    "domaineName": "https://github.com/nathPay/ansible-letsencrypt"
+  },
+  "license": "GLP-3.0"
+}
