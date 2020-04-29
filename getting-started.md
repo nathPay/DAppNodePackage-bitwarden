@@ -4,9 +4,12 @@ Your are now in control of all your password but we can make it more comfortable
 
 ## Access to bitwarden from anywhere.
 
-Currently you can access to your bitwarden by connecting to your dappnode wifi or access it using your dappnode vpn and then access to http://bitwarden.public.dappnode
+Currently you can access to your bitwarden by connecting to your dappnode wifi or access it using your dappnode vpn and then access to https://<dappnodeLocalIPAddress>:<PortYouChoose>
 
 But it could be boring so you can do the following thing to access it from anywhere:
+
+### Step 0:
+Maybe it's already done, please modify the environment variable `EXTERNAL` to true and remove volume and restart the package.
 
 ### Step 1:
 Enabling port forwarding to the port you choose in the package configuration (default is 8343).
