@@ -3,6 +3,9 @@ services:
   bitwarden.public.dappnode.eth:
     image: 'bitwarden.public.dappnode.eth:1.1.0'
     build: ./build
+    environment:
+      - 'ROCKET_TLS={certs="/bitwarden.crt", key="/bitwarden.key"}'
+      - EXTERNAL=false
     volumes:
       - 'data:/data'
     ports:
