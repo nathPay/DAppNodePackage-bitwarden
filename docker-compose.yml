@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   bitwarden.public.dappnode.eth:
-    image: 'bitwarden.public.dappnode.eth:1.0.1'
+    image: 'bitwarden.public.dappnode.eth:1.1.0'
     build: ./build
     volumes:
       - 'data:/data'

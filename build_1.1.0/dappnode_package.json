@@ -1,0 +1,23 @@
+{
+  "name": "bitwarden.public.dappnode.eth",
+  "version": "1.1.0",
+  "upstreamVersion": "1.17.0-alpine",
+  "description": "An easy way to store password",
+  "type": "service",
+  "keywords": [
+    "SECURITY"
+  ],
+  "dependencies": {},
+  "author": "Nathan Payre",
+  "categories": [
+    "Storage"
+  ],
+  "links": {
+    "HomePage": "http://bitwarden.public.dappnode",
+    "repo": "https://github.com/dani-garcia/bitwarden_rs",
+    "dockerhub": "https://hub.docker.com/r/bitwardenrs/server",
+    "package": "https://github.com/nathPay/DAppNodePackage-bitwarden",
+    "domaineName": "https://github.com/nathPay/ansible-letsencrypt"
+  },
+  "license": "GLP-3.0"
+}

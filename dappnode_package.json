@@ -1,19 +1,16 @@
 {
   "name": "bitwarden.public.dappnode.eth",
-  "version": "1.0.1",
-  "upstreamVersion": "1.14.2-alpine",
+  "version": "1.1.0",
+  "upstreamVersion": "1.17.0-alpine",
   "description": "An easy way to store password",
-  "avatar": "/ipfs/QmQJUhhywfKNX6tpyitoCLJtM1bK5EQ4fy1g2TVTbn73Yk",
   "type": "service",
   "keywords": [
-    "BITWARDEN",
-    "PASSWORD",
-    "SELF_HOSTING"
+    "SECURITY"
   ],
   "dependencies": {},
   "author": "Nathan Payre",
   "categories": [
-    "security"
+    "Storage"
   ],
   "links": {
     "HomePage": "http://bitwarden.public.dappnode",

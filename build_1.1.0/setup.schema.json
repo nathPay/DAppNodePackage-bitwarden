@@ -1,0 +1,11 @@
+{
+    "description": "Bitwarden is a password manager. With this package you can keep your passwords safe in your server! \n You can download the chrome / brave / firefox extension for bitwarden.\n The following tutorial https://github.com/nathPay/ansible-letsencrypt give you the possibility to add a domain name to your bitwarden server and then access it externally.",
+    "type": "object",
+    "properties": {
+        "bitwardenDataMountPoint": {
+            "type": "string",
+            "title": "Bitwarden data mountpoint",
+            "description": "Use this option if you want to store your password in a external drive."
+        }
+    }
+}

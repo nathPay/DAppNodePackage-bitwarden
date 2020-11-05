@@ -26,5 +26,11 @@
     "uploadedTo": {
       "dappnode": "Tue, 28 Apr 2020 10:04:51 GMT"
     }
+  },
+  "1.1.0": {
+    "hash": "/ipfs/QmUAg3TCd5o2bcFn8AUWcYV1ANHVoF7943KvzNPmMmQ3HL",
+    "uploadedTo": {
+      "dappnode": "Tue, 03 Nov 2020 18:14:23 GMT"
+    }
   }
 }
