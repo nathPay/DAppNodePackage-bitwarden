@@ -1,7 +1,7 @@
 {
-    "EXTERNAL": {
+    "SIGNUPS_ALLOWED": {
         "type": "environment",
-        "name": "EXTERNAL"
+        "name": "SIGNUPS_ALLOWED"
     },
     "bitwardenDataMountPoint": {
         "type": "allNamedVolumesMountpoint"

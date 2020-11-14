@@ -2,11 +2,10 @@
     "description": "Bitwarden is a password manager. With this package you can keep your passwords safe in your server! \n You can download the chrome / brave / firefox extension for bitwarden.\n The following tutorial https://github.com/nathPay/ansible-letsencrypt give you the possibility to add a domain name to your bitwarden server and then access it externally.",
     "type": "object",
     "properties": {
-        "EXTERNAL": {
+        "SIGNUPS_ALLOWED": {
             "type": "string",
-            "title": "Do you plan to create an external access?",
-            "description": "Bitwarden does not work without https so if you if you plan to use it only in LAN please let the value to false and a self signed certificate will be created to bypass this limitation.",
-            "default": "false",
+            "title": "Do you want to enable new user registration?",
+            "default": "true",
             "enum": ["false", "true"]
         },
         "bitwardenDataMountPoint": {
