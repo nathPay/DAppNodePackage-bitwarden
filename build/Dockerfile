@@ -1,1 +1,1 @@
-FROM bitwardenrs/server:1.17.0-alpine
+FROM bitwardenrs/server:1.18.0-alpine

@@ -1,9 +1,0 @@
-{
-    "SIGNUPS_ALLOWED": {
-        "type": "environment",
-        "name": "SIGNUPS_ALLOWED"
-    },
-    "bitwardenDataMountPoint": {
-        "type": "allNamedVolumesMountpoint"
-    }
-}

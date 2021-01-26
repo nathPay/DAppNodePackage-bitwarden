@@ -1,7 +1,7 @@
 {
   "name": "bitwarden.public.dappnode.eth",
-  "version": "1.1.1",
-  "upstreamVersion": "1.17.0-alpine",
+  "version": "1.2.0",
+  "upstreamVersion": "1.18.0-alpine",
   "description": "An easy way to store password",
   "type": "service",
   "keywords": [

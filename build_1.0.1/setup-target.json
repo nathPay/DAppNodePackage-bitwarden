@@ -1,9 +1,0 @@
-{
-    "EXTERNAL": {
-        "type": "environment",
-        "name": "EXTERNAL"
-    },
-    "bitwardenDataMountPoint": {
-        "type": "allNamedVolumesMountpoint"
-    }
-}
